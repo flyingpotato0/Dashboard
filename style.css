@@ -638,3 +638,91 @@ background: url("images/trophy.png"), lightgray 50% / cover no-repeat;
     border-radius: 10px;
     background: #f9fbff;
 }
+
+
+/*Typography*/
+.header1 {
+    font-family: "Poppins";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+.header2 {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.header3 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.subtitle {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.regular {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.regular-bold {
+    font-weight: 700;
+}
+
+.small {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.smaller {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+
+/*Buttons*/
+.menu-button {
+    display: flex;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 8px;
+    color: #9197b3;
+    background: #fff;
+}
+
+.menu-button:hover {
+    background: #f3f3f3;
+}
+
+.menu-button:active {
+    color: #fff;
+    background: var(--gradient-primary, linear-gradient(95deg, #00ADE6 19.19%, #422FE3 182.74%));
+}
